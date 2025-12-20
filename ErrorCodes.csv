@@ -1,0 +1,30 @@
+Code,Description
+E1,Alarm for abnormal water flow.
+E2,Water hasn't drained properly.
+E3,Alarm for lid not closed before wash and spin.
+E4,Unbalanced drum.
+E5,High current error
+E6,EMC error
+E8,Motor error
+E9,Water level sensor
+F01,Filling issue
+F02,Drain issue
+F04,Door open
+F05,NTC short or open circuit
+F06,Does not heat
+F08,Motor
+F09,Motor failed to reverse
+F10,PCB fail
+F11,PCB fail
+F12,Display board fail
+C03,Imbalance load
+IE,Water inlet error
+UE,Unbalance error
+LE,Door open error
+H2,Thermistor error
+H4,Thermistor over heat error
+H5,Water temp error
+H6,Heater failed to heat in 15 minutes
+H8,Heater operated without water
+IB,PCB error
+PFE,Pump filter error
