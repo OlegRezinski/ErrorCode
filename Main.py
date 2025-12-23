@@ -21,7 +21,7 @@ if error_codes_input:
 
     if len(error_codes) == 1:
         df_errors = st.session_state['error_codes']
-        df_result = df_errors[df_errors['Code'] == error_codes[0]]
+        df_result = df_errors[df_errors['Code'] == int(error_codes[0])]
 
         if df_result.empty:
             # st.subheader(f'Code {error_codes[0]} not found')
@@ -32,4 +32,3 @@ if error_codes_input:
             pop_up(f'{error_codes[0]}: {description}')
 
 st.dataframe(st.session_state['error_codes'])
-
