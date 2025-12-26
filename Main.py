@@ -48,10 +48,11 @@ file_name = 'ErrorCodes.csv'
 if 'error_codes' not in st.session_state:
     st.session_state['error_codes'] = pd.read_csv(file_name)
 
-    st.session_state['df_display'] = st.session_state['error_codes'].copy()
-    st.session_state['df_display'].sort_values(by=['Code'], inplace=True)
-    st.session_state['df_display'].reset_index(drop=True, inplace=True)
-
+    df_display = st.session_state['error_codes'].copy()
+    df_display = df_display[df_display['Description'] != 'Description is missing']
+    df_display.sort_values(by=['Code'], inplace=True)
+    df_display.reset_index(drop=True, inplace=True)
+    st.session_state['df_display'] = df_display
     st.session_state['error_codes']['Code'] = st.session_state['error_codes']['Code'].astype(str)
 
 
