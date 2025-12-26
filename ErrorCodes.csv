@@ -1,30 +1,464 @@
 Code,Description
-E1,Alarm for abnormal water flow.
-E2,Water hasn't drained properly.
-E3,Alarm for lid not closed before wash and spin.
-E4,Unbalanced drum.
-E5,High current error
-E6,EMC error
-E8,Motor error
-E9,Water level sensor
-F01,Filling issue
-F02,Drain issue
-F04,Door open
-F05,NTC short or open circuit
-F06,Does not heat
-F08,Motor
-F09,Motor failed to reverse
-F10,PCB fail
-F11,PCB fail
-F12,Display board fail
-C03,Imbalance load
-IE,Water inlet error
-UE,Unbalance error
-LE,Door open error
-H2,Thermistor error
-H4,Thermistor over heat error
-H5,Water temp error
-H6,Heater failed to heat in 15 minutes
-H8,Heater operated without water
-IB,PCB error
-PFE,Pump filter error
+1,Description is missing
+77,Description is missing
+168,C58_P3V3_PS
+465,C58_P3V3_PS_I
+665,C58_P3V3_PS_M
+171,C58_P2V5
+466,C58_P2V5_I
+666,C58_P2V5_M
+230,C58_P1V8_PL
+468,C58_P1V8_PL_I
+667,C58_P1V8_PL_M
+226,C58_P1V8_GTR
+469,C58_P1V8_GTR_I
+668,C58_P1V8_GTR_M
+173,C58_P1V2_GTH
+470,C58_P1V2_GTH_I
+669,C58_P1V2_GTH_M
+227,C58_P1V2_PL
+471,C58_P1V2_PL_I
+670,C58_P1V2_PL_M
+228,C58_P1V2_PS
+472,C58_P1V2_PS_I
+671,C58_P1V2_PS_M
+174,C58_P0V85_PS
+473,C58_P0V85_PS_I
+672,C58_P0V85_PS_M
+231,C58_P0V85_PL
+474,C58_P0V85_PL_I
+673,C58_P0V85_PL_M
+229,C58_P0V85_GTR
+475,C58_P0V85_GTR_I
+674,C58_P0V85_GTR_M
+175,C58_POV6_PS_VTT
+476,C58_POV6_PS_VTT_I
+675,C58_POV6_PS_VTT_M
+232,C58_P0V9_GTH
+477,C58_P0V9_GTH_I
+676,C58_P0V9_GTH_M
+511,Description is missing
+512,CPB_P3V3
+529,CPB_P3V3_I
+677,CPB_P3V3_M
+513,CPB_P2V5
+530,CPB_P2V5_I
+678,CPB_P2V5_M
+514,CPB_P1V8
+531,CPB_P1V8_I
+679,CPB_P1V8_M
+515,CPB_P1V2
+532,CPB_P1V2_I
+680,CPB_P1V2_M
+516,CPB_P1V5
+534,CPB_P1V5_I
+681,CPB_P1V5_M
+517,CPB_P1V05
+535,CPB_P1V05_I
+682,CPB_P1V05_M
+518,CPB_P5VA
+533,CPB_P5VA_I
+683,CPB_P5VA_M
+519,CPB_P3V3A
+536,CPB_P3V3A_I
+684,CPB_P3V3A_M
+520,CPB_P3VA
+537,CPB_P3VA_I
+685,CPB_P3VA_M
+521,CPB_P3VADC
+538,CPB_P3VADC_I
+686,CPB_P3VADC_M
+522,CPB_P1V25_CXP2
+539,CPB_P1V25_CXP2_I
+687,CPB_P1V25_CXP2_M
+523,CPB_P3V3_SSD
+540,CPB_P3V3_SSD_I
+688,CPB_P3V3_SSD_M
+524,CPB_P1V2_SSD
+541,CPB_P1V2_SSD_I
+689,CPB_P1V2_SSD_M
+525,CPB_P0V9_SSD
+542,CPB_P0V9_SSD_I
+690,CPB_P0V9_SSD_M
+526,CPB_P24V_CPX
+543,CPB_P24V_CPX_I
+691,CPB_P24V_CPX_M
+527,CPB_P1V25_CPX1
+544,CPB_P1V25_CPX1_I
+692,CPB_P1V25_CPX1_M
+78,Description is missing
+176,C58_Internal_Hot
+704,C58_Internal_Hot_M
+177,C58_Internal_Very_Hot
+794,C58_Internal_Very_Hot_warning
+578,C58_Internal_Very_Hot_I
+703,C58_Internal_Very_Hot_M
+504,CPB_Themometer_Hot
+705,CPB_Themometer_Hot_M
+591,CPB_Themometer_very_Hot
+795,CPB_Themometer_very_Hot_warning
+571,CPB_Themometer_Very_Hot_I
+706,CPB_Themometer_Very_Hot_M
+79,Description is missing
+242,RTC_Internal_CBIT
+244,RTC_Time_progress_I
+245,RTC_Time_progress_M
+80,Description is missing
+246,C58_Flash_Memory
+249,C58_Ram_Memory
+252,Configurable_Parameters_version
+251,FPGA1_to_FPGA2_C2C_communication
+250,FPGA1_to_FPGA2_Ign_communication
+81,Description is missing
+253,SSD_Memory
+254,SSD_Memory_I
+2,Description is missing
+58,Description is missing
+73,Description is missing
+363,MLL_ibit
+364,MLL_indications
+749,Missile_reported_status
+801,Missile_reported_gyro_not_ok
+365,Missile_MLL_Before_Launching
+366,MLL_ATE
+796,MSL_LR1_HighTemp_SK
+74,Description is missing
+375,W_VID_ATE
+75,Description is missing
+372,W_TX_MBIT
+76,Description is missing
+750,Ignitions_oscillator_test
+789,Fire_prevention_during
+60,Description is missing
+67,Description is missing
+747,MAX10_Ignitions_Internal_Pbit
+745,Description is missing
+377,IGN_SUP_M
+378,IGN_SUP_DET_M
+379,COOL_IGN_SUP_DET_M
+68,Description is missing
+380,COOL_IGN
+381,Missile_reported_ignitions_state
+758,GYRO_IGN
+382,BAT_IGN
+383,LOCK_PIN_IGN
+384,LAUNCH_IGN
+385,FIBER_CUT_IGN
+69,Description is missing
+386,COOL_IGN_MBIT
+387,GYRO_IGN_MBIT
+388,BAT_IGN_MBIT
+389,LOCK_PIN_IGN_MBIT
+390,LAUNCH_IGN_MBIT
+391,FIBER_CUT_IGN_MBIT
+70,Description is missing
+759,IGN_SUP_SAMP
+770,IGN_SUP_DET_SAMP
+768,IGN_SUP_DET_SAMP_I
+761,COOL_IGN_SUP_DET_SAMP
+769,COOL_IGN_SUP_DET_SAMP_I
+762,IGN_TST_DET_SAMP_FIBER_Cut_I
+771,IGN_TST_DET_SAMP_FIBER_Cut_Status_I
+763,IGN_TST_DET_SAMP_COOL_Ign_I
+764,IGN_TST_DET_SAMP_GYRO_Ign_I
+781,IGN_TST_DET_SAMP_BAT_Ign_Status_I
+783,IGN_TST_DET_SAMP_BAT_Ign_I
+784,IGN_TST_DET_SAMP_LP_Status_I
+786,IGN_TST_DET_SAMP_LP_I
+785,IGN_TST_DET_SAMP_LAUNCHER_I
+787,IGN_TST_DET_SAMP_LAUNCHER_Status_I
+782,IGN_TST_DET_SAMP_GYRO_Ign_Status_I
+772,IGN_TST_DET_SAMP_COOL_Ign_Status_I
+760,Ignition_Circuits_IBIT
+71,Description is missing
+393,P19V_return_Voltage
+394,N19V_return_Voltage
+395,P9V_return_Voltage
+748,Missile_battery_voltage
+61,Description is missing
+283,Description is missing
+284,DFC_P3V3
+561,DFC_P3V3_I
+693,DFC_P3V3_M
+285,DFC_P1V8
+562,DFC_P1V8_I
+694,DFC_P1V8_M
+286,DFC_P1V0
+563,DFC_P1V0_I
+695,DFC_P1V0_M
+287,DFC_P5VA
+564,DFC_P5VA_I
+696,DFC_P5VA_M
+568,DFC_N5VA
+567,DFC_N5VA_I
+697,DFC_N5VA_M
+288,DFC_P3V3A
+565,DFC_P3V3A_I
+698,DFC_P3V3A_M
+290,PS_IN_FILT
+566,PS_IN_FILT_I
+699,PS_IN_FILT_M
+289,SD_ROSA_FPGA
+569,SD_ROSA_FPGA_I
+700,SD_ROSA_FPGA_M
+64,Description is missing
+276,Tx_FAULT_DFC
+575,Tx_FAULT_DFC_I
+277,STATUS_DFC
+576,STATUS_DFC_I
+328,Description is missing
+297,DFC_Hot
+298,DFC_Very_Hot
+590,DFC_Hot_I
+723,DFC_Hot_M
+589,DFC_Very_Hot_I
+724,DFC_Very_Hot_M
+65,Description is missing
+66,Description is missing
+282,Return_of_optic_fiber_light_Full
+291,Description is missing
+292,Identifier
+593,Identifier_I
+708,Laser_Wave_Length
+592,Laser_Wave_Length_I
+624,Status_message_from_DFC
+625,Status_message_from_DFC_I
+803,Description is missing
+799,Wired_comunication
+798,Fiber_comunication
+800,LR2_RX_comType_wired
+3,Description is missing
+52,Description is missing
+178,VBAT_Voltage_Test
+711,VBAT_Voltage_Test_M
+179,VBAT_Voltage_too_high
+180,VBAT_Voltage_too_low
+181,P19V_MSL_Voltage_Test
+182,N19V_MSL_Voltage_Test
+553,N19V_BS_Voltage_Test
+618,N19V_BS_Voltage_Test_I
+712,N19V_BS_Voltage_Test_M
+183,P13V_Voltage_Test
+619,P13V_Voltage_Test_I
+713,P13V_Voltage_Test_M
+184,P6V5_MSL_Voltage_Test
+620,P6V5_MSL_Voltage_Test_I
+714,P6V5_MSL_Voltage_Test_M
+185,N6V5_MSL_Voltage_Test
+621,N6V5_MSL_Voltage_Test_I
+715,N6V5_MSL_Voltage_Test_M
+186,P5V_Voltage_Test
+622,P5V_Voltage_Test_I
+716,P5V_Voltage_Test_M
+559,P9V_MSL_Voltage_Test
+560,P9V_MSL_BS_Voltage_Test
+623,P9V_MSL_BS_Voltage_Test_I
+717,P9V_MSL_BS_Voltage_Test_M
+53,Description is missing
+330,MSL_SUP_FAULT
+331,DC_SUP_FAULT_I
+736,DC_SUP_FAULT
+54,Description is missing
+335,COOLER_ON_CMD
+56,Description is missing
+339,Battery_Voltage_Test
+341,Battery_Current_test
+344,Battery_Number_of_Charges_test
+752,Battery_Temperature_test
+754,Battery_Temperature_test_I
+343,Battery_Temperature_test_missile_on
+604,Description is missing
+629,Description is missing
+630,Camera1_FW_Initialization_Fail
+631,Camera1_FW_Initialization_Fail_I
+647,Camera2_FW_Initialization_Fail
+648,Camera2_FW_Initialization_Fail_I
+608,Description is missing
+644,Camera1_Internal_Bit_I
+725,Camera1_Temp_Internal
+735,Camera1_Temp_Internal_C_M
+617,Description is missing
+646,Camera2_Internal_Bit_I
+729,Camera2_Temp_Internal
+731,Camera2_Temp_Internal_C_M
+5,Description is missing
+15,Description is missing
+96,Description is missing
+444,Command_Response_Test
+582,Command_Response_Test_I
+445,Power_On_Bit_Error
+583,Power_On_Bit_Error_I
+461,EEPROM_CheckSum_Error
+584,EEPROM_CheckSum_Error_I
+448,PS_Error
+585,PS_Error_I
+449,FPA_COM_Error
+586,FPA_COM_Error_I
+450,No_Data_from_detector
+451,FPA_Temp_Error
+452,Online_Bit_Error
+105,Description is missing
+802,Description is missing
+458,Com_Protocol_test
+587,Com_Protocol_test_I
+459,Message_From_Detector_Test
+588,Message_From_Detector_Test_I
+462,Communication_Disconnection_Test
+109,Description is missing
+110,Description is missing
+157,Video_Quality_Test
+18,Description is missing
+114,Description is missing
+159,OMCB_data_clk_Test
+116,Description is missing
+161,FOV_TEMP
+528,FOCUS_TEMP
+117,Description is missing
+162,OMCB_Temp_Hot_Test
+121,Description is missing
+166,OMCB_status_comm_Test
+441,OMCB_CheckSum_Error
+122,Description is missing
+167,Data_from_omcb_Test
+19,Description is missing
+438,OMCB_Voltage_Failure
+737,Homming_Timeout
+738,Homming_Timeout_I
+350,Focus_Homming
+572,Focus_Homming_I
+440,Travel_Distance_Failure
+573,Travel_Distance_Failure_I
+701,Motion_Failure
+702,Motion_Failure_I
+443,Lenses_Collision_Test
+574,Lenses_Collision_Test_I
+352,TWO_P_NUC
+354,Motors_calibration
+21,Description is missing
+347,Cooling_by_IR_observation
+348,IR_Cooler_temperature
+6,Description is missing
+43,Description is missing
+425,I2C_comm
+51,Description is missing
+423,OLED_Brigtness
+548,OLED_Image_Display
+424,OLED_Calibration
+480,OLED_setting_verification
+581,OLED_setting_verification_I
+45,Description is missing
+413,ZOOM_buton
+414,FIRE1_buton
+415,LOCK_buton
+418,MANUAL_buton
+417,MAS_buton
+420,COOLER_buton
+419,Bar_buton
+46,Description is missing
+411,J_STICK_X_Operational
+410,J_STICK_Y_Operational
+409,J_STICK_X_LEFT_IBIT
+408,J_STICK_X_RIGHT_IBIT
+502,J_STICK_Y_DOWN_IBIT
+503,J_STICK_Y_UP_IBIT
+508,J_STICK_Y_IBIT
+509,J_STICK_X_IBIT
+48,Description is missing
+407,CPB_to_DCB_to_SPI_comm
+406,Fov_Change
+405,Obeservation_Day_Night_Change
+404,Menu_Switch
+427,Missle_Detector_Switch
+429,Auto_Switch
+430,Send_Picture_Switch
+431,ON_OFF_Switch
+432,Lasing_Switch
+50,Description is missing
+396,SPI_Comm_to_inclinometer
+500,inclinometer_Status_bit0
+546,inclinometer_Status_bit1
+550,Inclinometer_IBIT
+790,Inclinometer_vitality
+791,Inclinometer_continuity
+792,Inclinometer_saturation_Pitch
+797,Inclinometer_saturation_Roll
+7,Description is missing
+261,Description is missing
+264,GPS_Software_version
+579,GPS_Software_version_I
+483,GPS_Software_version_M
+30,Description is missing
+259,GPS_Communication
+31,Description is missing
+267,GPS_Antena
+804,GPS_Fix_Type
+268,GPS_Location_measurement_Latitude_Position
+270,GPS_Location_measurement_Longitude_Position
+269,GPS_Location_measurement_Altitude_Position
+9,Description is missing
+25,Description is missing
+233,LRF_Internal_Bit_I
+479,LRF_Internal_Bit
+26,Description is missing
+494,LRF_Incoming_Message_Internal_PBIT
+506,LRF_Incoming_Message_Internal_IBIT
+649,LRF_Incoming_Message_Internal_PBIT_I
+650,LRF_Incoming_Message_Internal_IBIT_I
+27,Description is missing
+236,Gate_Range_Reply
+580,Gate_Range_Reply_I
+510,Range_Measure_Reply
+489,Not_Acknowlegment_Reply
+793,LRF_temperature
+240,LRF_tests_against_test_equipment
+28,Description is missing
+496,Description is missing
+493,Message_Quality
+39,Description is missing
+221,DC_OUT
+222,Solenoid_Out
+223,ANA_IN_1
+224,ANA_IN_2
+40,Description is missing
+213,Eth_BI_DA_DD
+214,RS232_C58_SERVICE
+215,USB
+216,RS422_1
+217,RS485_2
+218,RS485_F_TX_3
+219,RS485_4
+220,RS422_5
+41,Description is missing
+225,GRIP_OPTO
+188,TRIGGER_OPTO
+189,nOPTO_IN_1
+190,nOPTO_IN_2
+191,nTEST_ENA
+192,nPROG_ENA
+193,SAFETY_ZONE
+549,SAFETY_ZONE_I_Connect
+551,SAFETY_ZONE_I_Disconnect
+194,RC_ID
+195,IDT_ID
+196,MC_ID
+197,nBAT_SIM
+198,SPARE_IN1
+199,SPARE_IN2
+200,DISC_OUT_OPEN_GND_1
+201,DISC_OUT_OPEN_GND_2
+202,DISC_OUT_OPEN_GND_3
+203,SPARE_OUT_OPEN_GND_1
+204,SPARE_OUT_OPEN_GND_2
+42,Description is missing
+205,COMP_VID_S
+207,SRC_VID
+206,Digital_VID_IN
+212,Eth_GIGE_OUT
+557,Description is missing
+660,Ibit_Auto_test_confirmation
+651,Ibit_Auto_test_TimeOut
+662,Description is missing
+663,HMI_Comm
+742,HMI_Comm_warnning
+743,HMI_Comm_M
+744,HMI_Comm_I
