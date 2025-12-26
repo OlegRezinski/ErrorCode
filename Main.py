@@ -29,6 +29,18 @@ def set_bg_from_local(image_file):
     )
 
 
+# Inject CSS to hide the header, hamburger menu, and footer
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            header {visibility: hidden;}
+            footer {visibility: hidden;}
+            div[data-testid="stDecoration"] {display: none;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
+
 # Call the function with your local file name
 # set_bg_from_local('troubleshoot-icon-15.jpg')
 
