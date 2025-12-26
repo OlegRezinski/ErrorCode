@@ -2,17 +2,12 @@ import os
 import streamlit as st
 import pandas as pd
 import base64
-from streamlit_searchbox import st_searchbox
 
 @st.dialog("Result")
 def pop_up(message: str):
     st.write(message)
     # if st.button("Close"):
     #     st.rerun()
-
-
-
-
 
 
 def set_bg_from_local(image_file):
