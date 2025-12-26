@@ -86,5 +86,4 @@ if error_codes_input:
             pop_up(f'{error_codes[0]}: {description}')
 
 
-st.table(st.session_state['df_display'])
-
+st.write(st.session_state['df_display'].style.hide(axis="index").to_html(), unsafe_allow_html=True)
